@@ -1,0 +1,98 @@
+.header-search {
+    margin-bottom: 20px;
+}
+
+.search-result {
+    font-size: 18px;
+    line-height: 21px;
+    color: #2C2C2C;
+}
+
+.header-search .input {
+    border: 0;
+    width: 100%;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #999;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    padding: 15px;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.result-search-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-fav-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-favorite {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    margin-right: 10px;
+    background: #6F64F8;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 0;
+}
+.btn-cart {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    background: #6F64F8;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 0;
+}
+.total-items-in-wishList {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -5px;
+    left: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 50%;
+}
+.total-items-in-cartItem {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -5px;
+    left: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 50%;
+}
