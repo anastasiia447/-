@@ -1,14 +1,26 @@
 import "./product-item.css";
 import CardItem from "./CardItem.js";
+import productsJson from "./products.json";
+import React, { useEffect, useState } from 'react';
 
 export function Productlist(props) {
-  if (props.list.length === 0) {
+  const [products, setProducts] = useState(productsJson.products);
+  const [filteredProducts, setFilteredProducts] = useState(productsJson.products);
+  console.log(productsJson.products);
+  useEffect(() => {
+    setFilteredProducts(
+      productsJson.products.map((item) => {
+        return item
+      })
+    )
+  }, [props]);
+  if (products.length === 0) {
     return <h1>Sorry, no products found :(</h1>
   }
-
+  
   return (
-    <div className="product-list row">
-      {props.list.map((item) => (
+    <div className="product-list-row">
+      {filteredProducts.map((item) => (
         <CardItem
           image={item.images[0]}
           title={item.title}

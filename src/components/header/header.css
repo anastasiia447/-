@@ -1,11 +1,11 @@
 .header-block > a {
     text-decoration: none;
 }
+
 .logo-block {
     display: flex;
     padding: 25px;
     align-items: center;
-    
 }
 
 .header-name-logo {
@@ -14,7 +14,7 @@
     padding: 20px;
     font-weight: 600;
     font-size: 52px;
-    color: #7E72F2;
+    color: #0045cf;
     text-decoration: none;
 }
 

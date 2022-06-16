@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { Filter } from "./components/filter/Filter.js";
 import { Search } from "./components/search/Search.js";
 import { Productlist } from "./components/product-list/Product-list.js";
-import { Pagination } from "./components/pagination/Pagination.js";
 import { backendUrl } from "./constants";
+import products from "./components/product-list/products.json";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="container">
       <div className="row">
-          <div className={isFiltersOpened ? "col-md-4 col-ms-6" : "col-md-1 col-ms-2"}>
+          <div className={isFiltersOpened ? "col-md-4-col-ms-6" : "col-md-1 col-ms-2"}>
           <Filter
             isOpened={isFiltersOpened}
             setIsOpened={setIsFiltersOpened}
@@ -86,7 +86,7 @@ function App() {
             setBrandsFilter={setBrandsFilter}
           />
         </div>
-          <div className={isFiltersOpened ? "col-md-8 col-ms-6" : "col-md-11 col-ms-10" }>
+          <div className={isFiltersOpened ? "col-md-8-col-ms-6" : "col-md-11 col-ms-10" }>
           <Search
             searchData={searchData}
             setSearchData={setSearchData}
@@ -95,11 +95,6 @@ function App() {
           <Productlist list={products} />
         </div>
       </div>
-      <Pagination
-        pages={Math.ceil(totalProducts / 10)}
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-      />
     </div>
   );
 }

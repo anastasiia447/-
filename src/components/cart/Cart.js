@@ -4,11 +4,13 @@ import CardItem from "../product-list/CardItem";
 
 export function Cart() {
   const cart = useSelector((state) => state.cart);
+  if (cart.length === 0) {
+    return <h2>There's nothing in your cart yet. Try adding some products!</h2>
+  }
 
   return (
     <div>
       <h1>Cart</h1>
-      <h2>There's nothing in your cart yet. Try adding some products!</h2>
       <ul>
         {cart.map((item) => (
           <CardItem

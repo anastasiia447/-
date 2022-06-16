@@ -1,0 +1,101 @@
+{
+    "categories": [
+      {
+        "category": "Monitors",
+        "title": "Monitors",
+        "value": ""
+      },
+      {
+        "category": "Laptops",
+        "title": "Laptops",
+        "value": ""
+      },
+      {
+        "category": "Video cards",
+        "title": "Video cards",
+        "value": ""
+      },
+      {
+        "category": "Gaming keyboards",
+        "title": "Gaming keyboards",
+        "value": ""
+      },
+      {
+        "category": "Computer mouse",
+        "title": "Computer mouse",
+        "value": ""
+      },
+      {
+        "category": "SSD",
+        "title": "SSD",
+        "value": ""
+      },
+      {
+        "category": "Sound cards",
+        "title": "Sound cards",
+        "value": ""
+      },
+      {
+        "category": "RAM",
+        "title": "RAM",
+        "value": ""
+      }
+    ],
+    "brands": [
+      {
+        "brand": "Asus",
+        "title": "Asus",
+        "value": ""
+      },
+      {
+        "brand": "Acer",
+        "title": "Acer",
+        "value": ""
+      },
+      {
+        "brand": "Apple",
+        "title": "Apple",
+        "value": ""
+      },
+      {
+        "brand": "Dell",
+        "title": "Dell",
+        "value": ""
+      },
+      {
+        "brand": "Dynamode",
+        "title": "Dynamode",
+        "value": ""
+      },
+      {
+        "brand": "Gigabyte",
+        "title": "Gigabyte",
+        "value": ""
+      },
+      {
+        "brand": "Kingston",
+        "title": "Kingston",
+        "value": ""
+      },
+      {
+        "brand": "Logitech",
+        "title": "Logitech",
+        "value": ""
+      },
+      {
+        "brand": "MSI",
+        "title": "MSI",
+        "value": ""
+      },
+      {
+        "brand": "BenQ",
+        "title": "BenQ",
+        "value": ""
+      },
+      {
+        "brand": "A4Tech",
+        "title": "A4Tech",
+        "value": ""
+      }
+    ]
+}

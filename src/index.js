@@ -3,15 +3,15 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Navigate, Routes } from "react-router-dom";
 import { Provider } from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { createStore } from "redux";
 import rootReducer from "./reducers";
+import { configureStore } from '@reduxjs/toolkit'
 import App from "./App";
 import { Favorites } from "./components/favorites/Favorites";
 import { Cart } from "./components/cart/Cart";
 import { Header } from "./components/header/Header.js";
 import "./index.css";
 
-const store = createStore(rootReducer, composeWithDevTools());
+const store = configureStore({ reducer: rootReducer }, composeWithDevTools());
 
 ReactDOM.render(
   <React.StrictMode>

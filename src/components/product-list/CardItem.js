@@ -51,7 +51,7 @@ function CardItem(props) {
   };
 
   return (
-    <div className="col-lg-4 col-md-6">
+    <div className="col-lg-4-col-md-6">
       <section className="card-container">
         <div className="content">
           <div className="image">

@@ -180,17 +180,6 @@
         "brand": "asus"
       },
       {
-        "id": "8lxdgefbn0hkr9kjkav",
-        "images": [
-          "https://content1.rozetka.com.ua/goods/images/big_tile/171121266.jpg"
-        ],
-        "title": "Ноутбук Dell Vostro 15 3500 (N3001VN3500UA03_2201_UBU) Black",
-        "rating": 1.02,
-        "price": 17000,
-        "category": "laptops",
-        "brand": "dell"
-      },
-      {
         "id": "ur7ngd675jckr9kjkav",
         "images": [
           "https://content2.rozetka.com.ua/goods/images/big_tile/163134380.jpg",
@@ -589,18 +578,6 @@
         "brand": "gigabyte"
       },
       {
-        "id": "bkfbp1sx534kr9kjkav",
-        "images": [
-          "https://content2.rozetka.com.ua/goods/images/big_tile/11526240.jpg",
-          "https://content2.rozetka.com.ua/goods/images/big_tile/11526233.jpg"
-        ],
-        "title": "Gigabyte PCI-Ex GeForce GT 730 2048MB GDDR5 (64bit) (902/5000) (DVI, HDMI) (GV-N730D5-2GL)",
-        "rating": 3.21,
-        "price": 2000,
-        "category": "video_cards",
-        "brand": "gigabyte"
-      },
-      {
         "id": "zuh5j9ufw8ekr9kjkav",
         "images": [
           "https://content.rozetka.com.ua/goods/images/big_tile/52297421.jpg"
@@ -694,40 +671,6 @@
         "brand": "a4-tech"
       },
       {
-        "id": "029ba5lt6dk4kr9kjkav",
-        "images": [
-          "https://content1.rozetka.com.ua/goods/images/big_tile/96359867.jpg"
-        ],
-        "title": "Клавиатура беспроводная Logitech G915 Gaming Wireless Mechanical GL Tactile RGB (920-008909)",
-        "rating": 3.69,
-        "price": 5999,
-        "category": "gaming_keyboards",
-        "brand": "logitech"
-      },
-      {
-        "id": "unfzuy81nukr9kjkav",
-        "images": [
-          "https://content2.rozetka.com.ua/goods/images/big_tile/114962160.jpg",
-          "https://content1.rozetka.com.ua/goods/images/big_tile/180768176.jpg"
-        ],
-        "title": "Клавиатура беспроводная Logitech G915 Gaming TKL Tenkeyless LIGHTSPEED Wireless RGB Mechanical White (920-009664)",
-        "rating": 5,
-        "price": 7700,
-        "category": "gaming_keyboards",
-        "brand": "logitech"
-      },
-      {
-        "id": "u9l5aixjedakr9kjkav",
-        "images": [
-          "https://content2.rozetka.com.ua/goods/images/big_tile/96907540.jpg"
-        ],
-        "title": "Клавиатура проводная Logitech G815 Gaming Mechanical GL Linear RGB USB Black (920-009007)",
-        "rating": 1.19,
-        "price": 2999,
-        "category": "gaming_keyboards",
-        "brand": "logitech"
-      },
-      {
         "id": "2fw83q44cx4kr9kjkav",
         "images": [
           "https://content1.rozetka.com.ua/goods/images/big_tile/3935304.jpg"
@@ -735,17 +678,6 @@
         "title": "Клавиатура проводная Logitech G815 Gaming Mechanical GL Tactile RGB USB (920-008991)",
         "rating": 3.22,
         "price": 4500,
-        "category": "gaming_keyboards",
-        "brand": "logitech"
-      },
-      {
-        "id": "1n7obbi04u4kr9kjkav",
-        "images": [
-          "https://content1.rozetka.com.ua/goods/images/big_tile/69770872.jpg"
-        ],
-        "title": "Клавиатура проводная Logitech G413 Carbon Mechanical Gaming USB (920-008309)",
-        "rating": 1.62,
-        "price": 2200,
         "category": "gaming_keyboards",
         "brand": "logitech"
       },
@@ -884,18 +816,6 @@
         "title": "Gigabyte SSD 120GB 2.5\" SATAIII NAND TLC (GP-GSTFS31120GNTD)",
         "rating": 3.14,
         "price": 809,
-        "category": "ssd",
-        "brand": "gigabyte"
-      },
-      {
-        "id": "sgtc2t612kr9kjkav",
-        "images": [
-          "https://content1.rozetka.com.ua/goods/images/big_tile/12327050.jpg",
-          "https://content2.rozetka.com.ua/goods/images/big_tile/12326938.jpg"
-        ],
-        "title": "Gigabyte SSD 240GB 2.5\" SATAIII NAND TLC (GP-GSTFS31240GNTD)",
-        "rating": 4.8,
-        "price": 919,
         "category": "ssd",
         "brand": "gigabyte"
       },
@@ -1102,18 +1022,6 @@
         "brand": "kingston"
       },
       {
-        "id": "lqivo0gh5mokr9kjkav",
-        "images": [
-          "https://content1.rozetka.com.ua/goods/images/big_tile/59164756.jpg",
-          "https://content.rozetka.com.ua/goods/images/big_tile/59164744.jpg"
-        ],
-        "title": "RAM Kingston SODIMM DDR4-2400 4096MB PC4-19200 (KCP424SS6/4)",
-        "rating": 1.89,
-        "price": 759,
-        "category": "ram",
-        "brand": "kingston"
-      },
-      {
         "id": "vbdh6bsx26rkr9kjkav",
         "images": [
           "https://content1.rozetka.com.ua/goods/images/big_tile/36439229.jpg",
@@ -1147,29 +1055,5 @@
         "category": "ram",
         "brand": "kingston"
       }
-    ],
-    "categories": [
-      "Monitors",
-      "Laptops",
-      "Video cards",
-      "Gaming keyboards",
-      "Computer mouse",
-      "SSD",
-      "Sound cards",
-      "RAM"
-    ],
-    "brands": [
-      "Asus",
-      "Acer",
-      "Apple",
-      "Dell",
-      "Dynamode",
-      "Gigabyte",
-      "Kingston",
-      "Lenovo",
-      "Logitech",
-      "MSI",
-      "BenQ",
-      "A4Tech"
     ]
-  }
+}

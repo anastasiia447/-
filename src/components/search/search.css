@@ -49,23 +49,25 @@
     position: relative;
     width: 30px;
     height: 30px;
-    padding: 4px;
+    padding: 6px;
     margin-right: 10px;
-    background: #6F64F8;
+    background: #0045cf;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     border: 0;
 }
+
 .btn-cart {
     position: relative;
     width: 30px;
     height: 30px;
     padding: 4px;
-    background: #6F64F8;
+    background: #0045cf;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     border: 0;
 }
+
 .total-items-in-wishList {
     position: absolute;
     display: flex;
@@ -81,6 +83,7 @@
     background-color: red;
     border-radius: 50%;
 }
+
 .total-items-in-cartItem {
     position: absolute;
     display: flex;

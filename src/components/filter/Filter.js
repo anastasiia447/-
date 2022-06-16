@@ -4,6 +4,7 @@ import "./filter.css";
 import { FilterList } from "./filter-list/FilterList.js";
 import { backendUrl } from "../../constants";
 import { DoubleSlider } from "../double-slider";
+import products from "./filterList.json";
 
 export function Filter({
   isOpened,
@@ -117,14 +118,14 @@ export function Filter({
         </div>
         <div className="divider"></div>
         <FilterList
-          list={categoriesList}
+          list={products.categories}
           title="Category"
           setFilter={setCategoriesFilter}
           filters={categoriesFilter}
         />
         <div className="divider"></div>
         <FilterList
-          list={brandsList}
+          list={products.brands}
           title="Brand"
           setFilter={setBrandsFilter}
           filters={brandsFilter}

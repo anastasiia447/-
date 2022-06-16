@@ -24,3 +24,15 @@ body {
 .container {
     max-width: 1846px;
 }
+
+.row {
+    display: flex;
+}
+
+.col-md-4-col-ms-6 {
+    min-width: 350px;
+}
+
+.col-md-8-col-ms-6 {
+    margin-left: 10px;
+}
